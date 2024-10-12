@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 40px auto;
+    line-height: 1.6;
+    max-width: 650px;
+    padding: 0 10px;
+    background-color: #000000;
+    font-family: "Helvetica Neue", serif;
+    font-size: small;
+    color: #f3e3cd;
+}
+
+.heading1 {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.credits {
+    font-size: x-small;
+    text-align: center;
+}
+
+.heading2 {
+    font-style: italic;
+}
+
+.link {
+    color: darkgreen;
+    font: -apple-system-short-footnote;
+}
+
+.title {
+    color: darkgreen;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+.column-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    color: white;
+    padding: 4rem 10rem;
+    grid-column: 2; grid-row: 3;
+}
+
+.logo{
+    color: #f3e3cd;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 2rem;
+}
+
+nav{
+    height: 50px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: calc((100vw - 1300px)/2);
+    padding-bottom: 0;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0 1.5rem;
+}
+
+.cheese{color: black}
